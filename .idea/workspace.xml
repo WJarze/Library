@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2666e4ed3c80e6b8dea8f68ff15f23714b7eef7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64fafdc235d96794e9a276e26cfb03cacd657d2b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/app/LibraryApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/app/LibraryControl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/app/LibraryControl$Option.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/app/LibraryControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/exception/DataExportException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/exception/DataImportException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/exception/NoSuchFileTypeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/exception/NoSuchOptionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/io/ConsolePrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/io/DataReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/FileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/FileManagerBuilder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/FileManagerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/FileType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/SerializableFileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/model/Library.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/model/Magazine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/library/model/Publication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/LibraryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/DataExportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/DataImportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/NoSuchFileTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/NoSuchOptionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/DataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/FileManagerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/SerializableFileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/app/LibraryApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl$Option.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exception/DataExportException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exception/DataImportException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exception/NoSuchFileTypeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/exception/NoSuchOptionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/ConsolePrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/DataReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/file/FileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/file/FileType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/file/SerializableFileManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Library.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Magazine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Publication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22TAlydepsKRkB8jLhzrhUEqyPB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Nauka/Programy/Programy JAVA/PIDinTreads&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.LibraryApp">
+    <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.LibraryApp" />
+      <module name="library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.library" />
+      <module name="library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LibraryApp" />
+        <item itemvalue="Application.library" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="" />
+      <created>1639851359351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639851359351</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/library$LibraryApp.ic" NAME="LibraryApp Coverage Results" MODIFIED="1643080251681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>app.*</FILTER>
+    </SUITE>
+  </component>
+</project>
