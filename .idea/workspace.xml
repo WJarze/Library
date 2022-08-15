@@ -4,81 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2666e4ed3c80e6b8dea8f68ff15f23714b7eef7f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64fafdc235d96794e9a276e26cfb03cacd657d2b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/app/LibraryApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/app/LibraryControl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/app/LibraryControl$Option.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/app/LibraryControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/exception/DataExportException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/exception/DataImportException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/exception/NoSuchFileTypeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/exception/NoSuchOptionException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/io/ConsolePrinter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/io/DataReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/FileManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/FileManagerBuilder$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/FileManagerBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/FileType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/io/file/SerializableFileManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/model/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/model/Library.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/model/Magazine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/library/model/Publication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/LibraryApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/DataExportException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/DataImportException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/NoSuchFileTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/NoSuchOptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/FileManagerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/FileType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/SerializableFileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Publication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app/LibraryApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl$Option.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exception/DataExportException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exception/DataImportException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exception/NoSuchFileTypeException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/exception/NoSuchOptionException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/ConsolePrinter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/DataReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/file/FileManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/file/FileType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/file/SerializableFileManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Library.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Magazine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Publication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,17 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Nauka/Programy/Programy JAVA/PIDinTreads&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "E:/Nauka/Programy/Programy JAVA/PIDinTreads",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.LibraryApp">
     <configuration name="LibraryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.LibraryApp" />
@@ -154,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1639851359351</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1660470517194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660470517194</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +104,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
