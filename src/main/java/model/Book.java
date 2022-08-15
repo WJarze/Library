@@ -7,6 +7,7 @@ public class Book extends Publication {
     private String author;
     private int pages;
     private String isbn;
+    public static final String TYPE = "Książka";
 
     // Konstruktory
     public Book(String title, String author, int year, int pages, String publisher,
@@ -40,6 +41,17 @@ public class Book extends Publication {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    @Override
+    public String toCsv() {
+        return (TYPE + ";") +
+                getTitle() + ";" +
+                getPublisher() + ";" +
+                getYear() + ";" +
+                author + ";" +
+                pages + ";" +
+                isbn + "";
     }
 
     @Override

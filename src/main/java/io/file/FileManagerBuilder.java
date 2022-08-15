@@ -17,10 +17,12 @@ public class FileManagerBuilder {
         printer.printLine("Wybierz format danych:");
         FileType fileType = getFileType();
         switch (fileType) {
+            case CSV:
+                return new CsvFileManager();
             case SERIAL:
                 return new SerializableFileManager();
             default:
-                throw new NoSuchFileTypeException ("Nieobsługiwany typ danych");
+                throw new NoSuchFileTypeException("Nieobsługiwany typ danych");
         }
     }
 

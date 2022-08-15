@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/InvalidDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/CsvFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.o" beforeDir="false" afterPath="$PROJECT_DIR$/Library.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/file/FileManagerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/file/FileManagerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/file/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/file/FileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Publication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryControl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryControl$Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl$Option.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/file/FileType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/file/FileType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Magazine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Publication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Publication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660470517194</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1660549649623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660549649623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,7 +125,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
