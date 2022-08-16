@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/InvalidDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/file/CsvFileManager.java" afterDir="false" />
+    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="next commit">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.o" beforeDir="false" afterPath="$PROJECT_DIR$/Library.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/file/FileManagerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/file/FileManagerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/file/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/file/FileType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Magazine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryControl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryControl$Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl$Option.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/file/FileManagerBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/file/FileType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/file/FileType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Magazine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Publication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Publication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +39,11 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "E:/Nauka/Programy/Programy JAVA/PIDinTreads",
+    "last_opened_file_path": "E:/Nauka/Programy/Programy JAVA/AlcoCalculator",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RunManager" selected="Application.LibraryApp">
@@ -117,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660549649623</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="next commit">
+      <created>1660556207553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660556207553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="next commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="next commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
