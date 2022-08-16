@@ -20,5 +20,3 @@ S
 #src/main/java/io/file/FileType.java,0\c\0cb2e83c650ad40454ec7a968503f5ebd808a450
 Q
 !src/main/java/model/Magazine.java,6\4\64fafdc235d96794e9a276e26cfb03cacd657d2b
-Q
-!src/main/java/app/LibraryApp.java,e\6\e6d9d986f6147b174ce20e802cc55cae204a1c7a
