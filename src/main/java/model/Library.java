@@ -31,7 +31,7 @@ public class Library implements Serializable {
         int i = 0;
         while (i < publications.length && found == NOT_FOUND) {
             if (pub.equals(publications[i])) {
-                found = i;
+
             } else {
                 i++;
             }

@@ -7,12 +7,14 @@ import io.ConsolePrinter;
 import io.DataReader;
 import io.file.FileManager;
 import io.file.FileManagerBuilder;
+import java.util.Arrays;
 import model.Book;
 import model.Library;
 import model.Magazine;
 import model.Publication;
 
 import java.util.InputMismatchException;
+import model.comparator.AlphabeticalTitleComparator;
 
 class LibraryControl {
     private ConsolePrinter printer = new ConsolePrinter();
@@ -103,7 +105,7 @@ class LibraryControl {
     }
 
     private void printBooks() {
-        Publication[] publications = library.getPublications();
+        Publication[] publications = getSortedPublications();
         printer.printBooks(publications);
     }
 
@@ -119,7 +121,7 @@ class LibraryControl {
     }
 
     private void printMagazines() {
-        Publication[] publications = library.getPublications();
+        Publication[] publications = getSortedPublications();
         printer.printMagazines(publications);
     }
 
@@ -188,5 +190,9 @@ class LibraryControl {
             }
         }
     }
-
+    private Publication[] getSortedPublications() {
+        Publication[] publications = library.getPublications();
+        Arrays.sort(publications, new AlphabeticalTitleComparator ());
+        return publications;
+    }
 }
