@@ -1,5 +1,6 @@
 package model.comparator;
 
+import java.time.Year;
 import java.util.Comparator;
 import model.Publication;
 
@@ -15,8 +16,8 @@ public class DateComparator implements Comparator<Publication> {
         if (p2 == null) {
             return -1;
         }
-        Integer i1 = p1.getYear();
-        Integer i2 = p2.getYear();
+        Year i1 = p1.getYear();
+        Year i2 = p2.getYear();
         return -i1.compareTo(i2);
     }
 }

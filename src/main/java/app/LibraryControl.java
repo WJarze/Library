@@ -3,17 +3,20 @@ import exception.DataExportException;
 import exception.DataImportException;
 import exception.InvalidDataException;
 import exception.NoSuchOptionException;
+import exception.UserAlreadyExistsException;
 import io.ConsolePrinter;
 import io.DataReader;
 import io.file.FileManager;
 import io.file.FileManagerBuilder;
-import java.util.Arrays;
+import java.util.Comparator;
 import model.Book;
 import model.Library;
+import model.LibraryUser;
 import model.Magazine;
 import model.Publication;
 
 import java.util.InputMismatchException;
+import model.User;
 import model.comparator.AlphabeticalTitleComparator;
 
 class LibraryControl {
@@ -60,6 +63,15 @@ class LibraryControl {
                 case DELETE_MAGAZINE:
                     deleteMagazine();
                     break;
+                case ADD_USER:
+                    addUser();
+                    break;
+                case PRINT_USERS:
+                    printUsers();
+                    break;
+                case FIND_BOOK:
+                    findBook();
+                    break;
                 case EXIT:
                     exit();
                     break;
@@ -104,11 +116,6 @@ class LibraryControl {
         }
     }
 
-    private void printBooks() {
-        Publication[] publications = getSortedPublications();
-        printer.printBooks(publications);
-    }
-
     private void addMagazine() {
         try {
             Magazine magazine = dataReader.readAndCreateMagazine();
@@ -120,9 +127,40 @@ class LibraryControl {
         }
     }
 
+    private void addUser() {
+        LibraryUser libraryUser = dataReader.createLibraryUser();
+        try {
+            library.addUser(libraryUser);
+        } catch (UserAlreadyExistsException e) {
+            printer.printLine(e.getMessage());
+        }
+    }
+
+    private void printBooks() {
+        printer.printBooks(library.getSortedPublications(
+                Comparator.comparing(Publication::getTitle, String.CASE_INSENSITIVE_ORDER))
+        );
+    }
+
     private void printMagazines() {
-        Publication[] publications = getSortedPublications();
-        printer.printMagazines(publications);
+        printer.printMagazines(library.getSortedPublications(
+                Comparator.comparing(Publication::getTitle, String.CASE_INSENSITIVE_ORDER)
+        ));
+    }
+
+    private void printUsers() {
+        printer.printUsers(library.getSortedUsers(
+                Comparator.comparing( User::getLastName, String.CASE_INSENSITIVE_ORDER)
+        ));
+    }
+
+    private void findBook() {
+        printer.printLine("Podaj tytuł publikacji:");
+        String title = dataReader.getString();
+        String notFoundMessage = "Brak publikacji o takim tytule";
+        library.findPublicationByTitle(title)
+                .map(Publication::toString)
+                .ifPresentOrElse(System.out::println, () -> System.out.println(notFoundMessage));
     }
 
     private void deleteMagazine() {
@@ -163,11 +201,14 @@ class LibraryControl {
     private enum Option {
         EXIT(0, "Wyjście z programu"),
         ADD_BOOK(1, "Dodanie książki"),
-        ADD_MAGAZINE(2,"Dodanie magazynu/gazety"),
+        ADD_MAGAZINE(2, "Dodanie magazynu/gazety"),
         PRINT_BOOKS(3, "Wyświetlenie dostępnych książek"),
         PRINT_MAGAZINES(4, "Wyświetlenie dostępnych magazynów/gazet"),
         DELETE_BOOK(5, "Usuń książkę"),
-        DELETE_MAGAZINE(6, "Usuń magazyn");
+        DELETE_MAGAZINE(6, "Usuń magazyn"),
+        ADD_USER(7, "Dodaj czytelnika"),
+        PRINT_USERS(8, "Wyświetl czytelników"),
+        FIND_BOOK(9, "Wyszukaj książkę");
 
         private int value;
         private String description;
@@ -185,14 +226,9 @@ class LibraryControl {
         static Option createFromInt(int option) throws NoSuchOptionException {
             try {
                 return Option.values()[option];
-            } catch(ArrayIndexOutOfBoundsException e) {
+            } catch (ArrayIndexOutOfBoundsException e) {
                 throw new NoSuchOptionException("Brak opcji o id " + option);
             }
         }
-    }
-    private Publication[] getSortedPublications() {
-        Publication[] publications = library.getPublications();
-        Arrays.sort(publications, new AlphabeticalTitleComparator ());
-        return publications;
     }
 }

@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="add remove method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/AlphabeticalTitleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/comparator/DateComparator.java" afterDir="false" />
+    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="add comparator and sort methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/PublicationAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/CsvConvertible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/LibraryUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.o" beforeDir="false" afterPath="$PROJECT_DIR$/Library.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/file/CsvFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/file/CsvFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Magazine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/LibraryApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/LibraryApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/comparator/DateComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/comparator/DateComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -125,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660660480573</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add comparator and sort methods">
+      <created>1664688138916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664688138916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +168,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="next commit" />
     <MESSAGE value="add remove method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add remove method" />
+    <MESSAGE value="add comparator and sort methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comparator and sort methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

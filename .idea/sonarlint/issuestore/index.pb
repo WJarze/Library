@@ -16,7 +16,3 @@ b
 library.iml,9\d\9d5c6012933103b157c82fbf025c3222f4763ead
 a
 1src/main/java/exception/InvalidDataException.java,c\4\c4bace6543810d7d1e84c5cbda6559e55adba4c1
-T
-$src/main/java/io/ConsolePrinter.java,7\7\77000081e0315ecc6827c1e7e564e037063752a6
-Y
-)src/main/java/io/file/CsvFileManager.java,8\d\8d6d0e0e52da77ee70fb99e452524a03ba889b93
