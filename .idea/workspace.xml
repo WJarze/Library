@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="add comparator and sort methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/PublicationAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exception/UserAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/CsvConvertible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/LibraryUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+    <list default="true" id="4918a0a1-da06-49ba-971e-9b59bfadfabf" name="Changes" comment="add user and user library class. Add user exception">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/LibraryControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/ConsolePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/DataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/file/CsvFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/file/CsvFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Magazine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Publication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/comparator/DateComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/comparator/DateComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664688138916</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add user and user library class. Add user exception">
+      <created>1664703250363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664703250363</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add user and user library class. Add user exception">
+      <created>1664703606006</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664703606006</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +171,8 @@
     <MESSAGE value="next commit" />
     <MESSAGE value="add remove method" />
     <MESSAGE value="add comparator and sort methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comparator and sort methods" />
+    <MESSAGE value="add user and user library class. Add user exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user and user library class. Add user exception" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
